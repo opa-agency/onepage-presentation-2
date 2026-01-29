@@ -1,17 +1,17 @@
 <template>
   <section
     id="secondary-features"
-    aria-label="Features for building a portfolio"
+    aria-label="Funcționalități pentru construirea unui portofoliu"
     class="py-20 sm:py-32"
   >
     <Container>
       <div class="mx-auto max-w-2xl sm:text-center">
         <h2 class="text-3xl font-medium tracking-tight text-gray-900">
-          Now is the time to build your portfolio.
+          Acum este momentul să-ți construiești portofoliul.
         </h2>
         <p class="mt-2 text-lg text-gray-600">
-          With typical market returns, you have to start young to secure your
-          future. With Pocket, it's never too late to build your nest egg.
+          Cu profiturile tipice ale pieței, trebuie să începi tânăr pentru a-ți asigura
+          viitorul. Cu Pocket, nu este niciodată prea târziu să-ți construiești economiile.
         </p>
       </div>
       <ul
@@ -60,33 +60,33 @@ const DeviceArrowIcon = defineComponent({
 
 const features = [
   {
-    name: 'Invest any amount',
-    description: 'Whether it is $1 or $1,000,000, we can put your money to work for you.',
+    name: 'Investește orice sumă',
+    description: 'Fie că este 1$ sau 1.000.000$, putem pune banii tăi să lucreze pentru tine.',
     icon: DeviceArrowIcon
   },
   {
-    name: 'Build a balanced portfolio',
-    description: 'Invest in different industries to find the most opportunities to win huge.',
+    name: 'Construiește un portofoliu echilibrat',
+    description: 'Investește în diferite industrii pentru a găsi cele mai multe oportunități de a câștiga mare.',
     icon: DeviceArrowIcon
   },
   {
-    name: 'Trade in real-time',
-    description: 'Get insider tips on big stock moves and act on them within seconds.',
+    name: 'Tranzacționează în timp real',
+    description: 'Primește sfaturi din interior despre mișcările mari ale acțiunilor și acționează asupra lor în secunde.',
     icon: DeviceArrowIcon
   },
   {
-    name: 'Profit from your network',
-    description: 'Invite new insiders to get tips faster and beat even other Pocket users.',
+    name: 'Profită din rețeaua ta',
+    description: 'Invită noi insider pentru a primi sfaturi mai rapid și a întrece chiar și alți utilizatori Pocket.',
     icon: DeviceArrowIcon
   },
   {
-    name: 'Encrypted and anonymized',
-    description: 'Cutting-edge security technology that even the NSA does not know about keeps you hidden.',
+    name: 'Criptat și anonimizat',
+    description: 'Tehnologia de securitate de ultimă generație pe care nici măcar NSA nu o cunoaște te ține ascuns.',
     icon: DeviceArrowIcon
   },
   {
-    name: 'Portfolio tracking',
-    description: 'Watch your investments grow exponentially, leaving other investors in the dust.',
+    name: 'Urmărirea portofoliului',
+    description: 'Urmărește cum investițiile tale cresc exponențial, lăsând alți investitori în urmă.',
     icon: DeviceArrowIcon
   }
 ]

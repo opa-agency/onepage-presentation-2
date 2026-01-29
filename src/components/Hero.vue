@@ -4,12 +4,12 @@
       <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
         <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
           <h1 class="text-4xl font-medium tracking-tight text-gray-900">
-            Invest at the perfect time.
+            Investește la momentul perfect.
           </h1>
           <p class="mt-6 text-lg text-gray-600">
-            By leveraging insights from our network of industry insiders,
-            you'll know exactly when to buy to maximize profit, and exactly
-            when to sell to avoid painful losses.
+            Prin valorificarea informațiilor din rețeaua noastră de insider din industrie,
+            vei ști exact când să cumperi pentru a maximiza profitul și exact
+            când să vinzi pentru a evita pierderi dureroase.
           </p>
           <div class="mt-8 flex flex-wrap gap-x-6 gap-y-4">
             <AppStoreLink />
@@ -25,7 +25,7 @@
                   stroke="#A3A3A3"
                 />
               </svg>
-              <span class="ml-2.5">Watch the video</span>
+              <span class="ml-2.5">Vizionează videoclipul</span>
             </Button>
           </div>
         </div>
@@ -100,7 +100,7 @@
         </div>
         <div class="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
           <p class="text-center text-sm font-semibold text-gray-900 lg:text-left">
-            As featured in
+            Prezentat în
           </p>
           <ul
             role="list"

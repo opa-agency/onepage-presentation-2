@@ -3,7 +3,7 @@
     <nav>
       <Container class="relative z-50 flex justify-between py-8">
         <div class="relative z-10 flex items-center gap-16">
-          <a href="/" aria-label="Home">
+          <a href="/" aria-label="Acasă">
             <Logo class="h-10 w-auto" />
           </a>
           <div class="hidden lg:flex lg:gap-10">
@@ -14,7 +14,7 @@
           <Popover class="lg:hidden">
             <PopoverButton
               class="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900"
-              aria-label="Toggle site navigation"
+              aria-label="Comută navigarea pe site"
             >
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="h-6 w-6">
                 <path
@@ -31,34 +31,34 @@
                   href="/#features"
                   class="block text-base/7 tracking-tight text-gray-700"
                 >
-                  Features
+                  Funcționalități
                 </a>
                 <a 
                   href="/#reviews"
                   class="block text-base/7 tracking-tight text-gray-700"
                 >
-                  Reviews
+                  Recenzii
                 </a>
                 <a 
                   href="/#pricing"
                   class="block text-base/7 tracking-tight text-gray-700"
                 >
-                  Pricing
+                  Prețuri
                 </a>
                 <a 
                   href="/#faqs"
                   class="block text-base/7 tracking-tight text-gray-700"
                 >
-                  FAQs
+                  Întrebări frecvente
                 </a>
               </div>
               <div class="mt-8 flex flex-col gap-4">
-                <Button href="#">Download the app</Button>
+                <Button href="#">Descarcă aplicația</Button>
               </div>
             </PopoverPanel>
           </Popover>
           <div class="flex items-center gap-6 max-lg:hidden">
-            <Button href="#">Download</Button>
+            <Button href="#">Descarcă</Button>
           </div>
         </div>
       </Container>

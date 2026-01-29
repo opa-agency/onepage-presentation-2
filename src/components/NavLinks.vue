@@ -28,10 +28,10 @@
 import { ref } from 'vue'
 
 const links = [
-  ['Features', '/#features'],
-  ['Reviews', '/#reviews'],
-  ['Pricing', '/#pricing'],
-  ['FAQs', '/#faqs'],
+  ['Funcționalități', '/#features'],
+  ['Recenzii', '/#reviews'],
+  ['Prețuri', '/#pricing'],
+  ['Întrebări frecvente', '/#faqs'],
 ]
 
 const hoveredIndex = ref(null)

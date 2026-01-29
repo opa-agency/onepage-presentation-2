@@ -1,7 +1,7 @@
 <template>
   <a
     href="#"
-    aria-label="Download on the App Store"
+    aria-label="Descarcă de pe App Store"
     :class="[
       'rounded-lg transition-colors',
       color === 'black'

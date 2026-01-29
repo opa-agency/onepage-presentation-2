@@ -10,11 +10,11 @@
           id="pricing-title"
           class="text-3xl font-medium tracking-tight text-gray-900"
         >
-          Flat pricing, no management fees.
+          Prețuri fixe, fără taxe de management.
         </h2>
         <p class="mt-2 text-lg text-gray-600">
-          Whether you're one person trying to get ahead or a big firm trying
-          to take over the world, we've got a plan for you.
+          Fie că ești o persoană care încearcă să progreseze sau o firmă mare care încearcă
+          să cucrească lumea, avem un plan pentru tine.
         </p>
       </div>
 
@@ -109,51 +109,51 @@ import Container from './Container.vue'
 import Button from './Button.vue'
 import Logo from './Logo.vue'
 
-const activePeriod = ref('Monthly')
+const activePeriod = ref('Lunar')
 
 const plans = [
   {
-    name: 'Starter',
+    name: 'Începător',
     featured: false,
-    price: { Monthly: '$0', Annually: '$0' },
-    description: 'You\'re new to investing but want to do it right. Get started for free.',
-    button: { label: 'Get started for free', href: '/register' },
+    price: { Lunar: '$0', Anual: '$0' },
+    description: 'Ești nou în investiții dar vrei să o faci corect. Începe gratuit.',
+    button: { label: 'Începe gratuit', href: '/register' },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every day',
-      'Invest up to $1,500 each month'
+      'Tranzacționare fără comision',
+      'Criptare multi-strat',
+      'Un sfat în fiecare zi',
+      'Investește până la $1.500 în fiecare lună'
     ],
     logomarkClassName: 'fill-gray-300'
   },
   {
-    name: 'Investor',
+    name: 'Investitor',
     featured: false,
-    price: { Monthly: '$7', Annually: '$70' },
-    description: 'You\'ve been investing for a while. Invest more and grow your wealth faster.',
-    button: { label: 'Subscribe', href: '/register' },
+    price: { Lunar: '$7', Anual: '$70' },
+    description: 'Investezi de ceva vreme. Investește mai mult și crește-ți averea mai repede.',
+    button: { label: 'Abonează-te', href: '/register' },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every hour',
-      'Invest up to $15,000 each month',
-      'Basic transaction anonymization'
+      'Tranzacționare fără comision',
+      'Criptare multi-strat',
+      'Un sfat în fiecare oră',
+      'Investește până la $15.000 în fiecare lună',
+      'Anonimizare de bază a tranzacțiilor'
     ],
     logomarkClassName: 'fill-gray-500'
   },
   {
     name: 'VIP',
     featured: true,
-    price: { Monthly: '$199', Annually: '$1,990' },
-    description: 'You\'ve got a huge amount of assets but it\'s not enough. To the moon.',
-    button: { label: 'Subscribe', href: '/register' },
+    price: { Lunar: '$199', Anual: '$1.990' },
+    description: 'Ai o sumă uriașă de active dar nu este suficient. Către lună.',
+    button: { label: 'Abonează-te', href: '/register' },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'Real-time tip notifications',
-      'No investment limits',
-      'Advanced transaction anonymization',
-      'Automated tax-loss harvesting'
+      'Tranzacționare fără comision',
+      'Criptare multi-strat',
+      'Notificări de sfaturi în timp real',
+      'Fără limite de investiție',
+      'Anonimizare avansată a tranzacțiilor',
+      'Recoltare automată a pierderilor fiscale'
     ],
     logomarkClassName: 'fill-cyan-500'
   }

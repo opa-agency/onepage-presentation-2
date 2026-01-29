@@ -10,15 +10,15 @@
           id="faqs-title"
           class="text-3xl font-medium tracking-tight text-gray-900"
         >
-          Frequently asked questions
+          Întrebări frecvente
         </h2>
         <p class="mt-2 text-lg text-gray-600">
-          If you have anything else you want to ask,{' '}
+          Dacă ai altceva ce vrei să întrebi,{' '}
           <a
             href="mailto:info@example.com"
             class="text-gray-900 underline"
           >
-            reach out to us
+            contactează-ne
           </a>.
         </p>
       </div>
@@ -47,44 +47,44 @@ import Container from './Container.vue'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
-      answer: 'Our whole business depends on our tips being good, so it\'s in our best interest that they are. The results of our customers speak for themselves, just trust us.'
+      question: 'Cum știu că sfaturile sunt bune?',
+      answer: 'Întreaga noastră afacere depinde de faptul că sfaturile noastre sunt bune, deci este în interesul nostru ca ele să fie. Rezultatele clienților noștri vorbesc de la sine, doar încrede-te în noi.'
     },
     {
-      question: 'Isn\'t this insider trading?',
-      answer: 'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don\'t even know.'
+      question: 'Nu este asta tranzacționare cu informații privilegiate?',
+      answer: 'Da, exact. Dar la scară largă! Istoric, puteai face doar tranzacții cu informații privilegiate cu cunoștințe din rețeaua ta directă. Pocket îți aduce sfaturi de tranzacționare din interior de la oameni pe care nici măcar nu îi cunoști.'
     },
     {
-      question: 'But isn\'t insider trading illegal?',
-      answer: 'Here\'s the thing: you\'re the one doing the insider trading, not us. We\'re just giving you the tips and some tools to make trades. We\'re not doing anything wrong here.'
+      question: 'Dar nu este tranzacționarea cu informații privilegiate ilegală?',
+      answer: 'Iată problema: tu ești cel care face tranzacționarea cu informații privilegiate, nu noi. Noi doar îți dăm sfaturile și câteva instrumente pentru a face tranzacții. Nu facem nimic greșit aici.'
     }
   ],
   [
     {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer: 'Again I would argue this isn\'t really our responsibility. People make their own choices. If they don\'t research the consequences that\'s on them, not on us.'
+      question: 'Își dau seama oamenii care vă dau sfaturi ce fac?',
+      answer: 'Din nou, aș argumenta că aceasta nu este cu adevărat responsabilitatea noastră. Oamenii fac propriile lor alegeri. Dacă nu cercetează consecințele, e vina lor, nu a noastră.'
     },
     {
-      question: 'Where is Pocket based?',
-      answer: 'Let\'s just say it\'s not somewhere where the SEC is going to find us.'
+      question: 'Unde este bazat Pocket?',
+      answer: 'Să zicem doar că nu este undeva unde SEC ne va găsi.'
     },
     {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer: 'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you\'re 9 years old. Or a dog.'
+      question: 'Există vreo limită de vârstă pentru tranzacționarea pe Pocket?',
+      answer: 'Pentru planul nostru gratuit, limita de vârstă se bazează pe vârsta minimă pentru tranzacționare în țara ta de reședință. Planul nostru VIP folosește anonimizare avansată a tranzacțiilor, așa că poți folosi acel plan chiar dacă ai 9 ani. Sau ești un câine.'
     }
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
-      answer: 'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.'
+      question: 'Cum ați reușit să puneți asta pe App Store?',
+      answer: 'Sincer, am fost surprinși și noi, dar în cele din urmă am aflat că recenzentul de aplicații a găsit aplicația att de convingtoară încât a aprobat-o doar ca să o poată folosi ei înșiși.'
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
-      answer: 'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.'
+      question: 'Cum explic banii pe care îi retrag din Pocket la fisc?',
+      answer: 'Aceasta pare a fi o sută la sută problema ta. Pocket nu este responsabil în niciun fel pentru declarațiile tale fiscale.'
     },
     {
-      question: 'How do I become an insider?',
-      answer: 'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we\'ll send you a guide on collecting insider information without being detected at work.'
+      question: 'Cum devin un insider?',
+      answer: 'Contactează-ne cu câteva detalii despre industria ta și tipul de acces pe care îl ai pentru a aplica pentru un cont de insider. Odată aprobat, îți vom trimite un ghid despre cum să colectezi informații din interior fără a fi detectat la serviciu.'
     }
   ]
 ]

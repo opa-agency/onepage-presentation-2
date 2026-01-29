@@ -9,12 +9,12 @@
     <Container class="relative">
       <div class="mx-auto max-w-md sm:text-center">
         <h2 class="text-3xl font-medium tracking-tight text-white sm:text-4xl">
-          Get your first tips today
+          Primește primele tale sfaturi astăzi
         </h2>
         <p class="mt-4 text-lg text-gray-300">
-          It takes 30 seconds to sign up. Download the app and create an
-          account today and we'll send you a tip guaranteed to double your
-          first investment.
+          Durează 30 de secunde să te înregistrezi. Descarcă aplicația și creează un
+          cont astăzi și îți vom trimite un sfat care garantat va dubla
+          prima ta investiție.
         </p>
         <div class="mt-8 flex justify-center">
           <AppStoreLink color="white" />

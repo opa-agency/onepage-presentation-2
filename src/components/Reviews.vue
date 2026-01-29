@@ -2,10 +2,10 @@
   <section id="reviews" aria-labelledby="reviews-title" class="pt-20 pb-16 sm:pt-32 sm:pb-24">
     <Container>
       <h2 id="reviews-title" class="text-3xl font-medium tracking-tight text-gray-900 sm:text-center">
-        Everyone is changing their life with Pocket.
+        Toată lumea își schimbă viața cu Pocket.
       </h2>
       <p class="mt-2 text-lg text-gray-600 sm:text-center">
-        Thousands of people have doubled their net-worth in the last 30 days.
+        Mii de oameni și-au dublat averea netă în ultimele 30 de zile.
       </p>
       <div ref="containerRef" class="relative -mx-4 mt-16 grid h-196 max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 sm:mt-20 md:grid-cols-2 lg:grid-cols-3">
         <template v-if="isInView">
@@ -43,20 +43,20 @@ import ReviewColumn from './ReviewColumn.vue'
 import { cn } from '@/utils/cn'
 
 const reviews = [
-  { title: "It really works.", body: "I downloaded Pocket today and turned $5000 into $25,000 in half an hour.", author: "CrazyInvestor", rating: 5 },
-  { title: "You need this app.", body: "I did not understand the stock market at all before Pocket. I still do not, but at least I am rich now.", author: "CluelessButRich", rating: 5 },
-  { title: "This should not be legal.", body: "Pocket makes it so easy to win big in the stock market that I cannot believe it is actually legal.", author: "LivingDaDream", rating: 5 },
-  { title: "Screw financial advisors.", body: "I barely made any money investing in mutual funds. With Pocket, I am doubling my net-worth every single month.", author: "JordanBelfort1962", rating: 5 },
-  { title: "I love it!", body: "I started providing insider information myself and now I get new insider tips every 5 minutes. I do not even have time to act on all of them. New Lamborghini is being delivered next week!", author: "MrBurns", rating: 5 },
-  { title: "Too good to be true.", body: "I was making money so fast with Pocket that it felt like a scam. But I sold my shares and withdrew the money and it is really there, right in my bank account. This app is crazy!", author: "LazyRich99", rating: 5 },
-  { title: "Wish I could give 6 stars", body: "This is literally the most important app you will ever download in your life. Get on this before it is so popular that everyone else is getting these tips too.", author: "SarahLuvzCash", rating: 5 },
-  { title: "Bought an island.", body: "Yeah, you read that right. Want your own island too? Get Pocket.", author: "ScroogeMcduck", rating: 5 },
-  { title: "No more debt!", body: "After 2 weeks of trading on Pocket I was debt-free. Why did I even go to school at all when Pocket exists?", author: "BruceWayne", rating: 5 },
-  { title: "I am 13 and I am rich.", body: "I love that with Pocket transaction anonymization I could sign up and start trading when I was 12 years old. I had a million dollars before I had armpit hair!", author: "RichieRich", rating: 5 },
-  { title: "Started an investment firm.", body: "I charge clients a 3% management fee and just throw all their investments into Pocket. Easy money!", author: "TheCountOfMonteChristo", rating: 5 },
-  { title: "It is like a superpower.", body: "Every tip Pocket has sent me has paid off. It is like playing Blackjack but knowing exactly what card is coming next!", author: "ClarkKent", rating: 5 },
-  { title: "Quit my job.", body: "I downloaded Pocket three days ago and quit my job today. I cannot believe no one else thought to build a stock trading app that works this way!", author: "GeorgeCostanza", rating: 5 },
-  { title: "Do not download this app", body: "Unless you want to have the best life ever! I am literally writing this from a yacht.", author: "JeffBezos", rating: 5 }
+  { title: "Chiar funcționează.", body: "Am descărcat Pocket astăzi și am transformat 5000$ în 25.000$ în jumătate de oră.", author: "InvestitorNebun", rating: 5 },
+  { title: "Ai nevoie de această aplicație.", body: "Nu am înțeles deloc piața de acțiuni înainte de Pocket. Tot nu o înțeleg, dar cel puțin sunt bogat acum.", author: "ConfuzDarBogat", rating: 5 },
+  { title: "Asta nu ar trebui să fie legal.", body: "Pocket face att de ușor să câștigi mare pe piața de acțiuni încât nu pot crede că este de fapt legal.", author: "TraiescVisul", rating: 5 },
+  { title: "La naiba cu consilierii financiari.", body: "Am câștigat puțini bani investind în fonduri mutuale. Cu Pocket, îmi dublez averea netă în fiecare lună.", author: "JordanBelfort1962", rating: 5 },
+  { title: "Iubesc asta!", body: "Am început să furnizez eu însumi informații din interior și acum primesc noi sfaturi la fiecare 5 minute. Nici măcar nu am timp să acționez asupra tuturor. Noul Lamborghini este livrat săptămâna viitoare!", author: "DlBurns", rating: 5 },
+  { title: "Prea bun ca să fie adevărat.", body: "Făceam bani att de repede cu Pocket încât părea o înșelătorie. Dar mi-am vândut acțiunile și am retras banii și sunt cu adevărat acolo, chiar în contul meu bancar. Această aplicație este nebună!", author: "LeneBogat99", rating: 5 },
+  { title: "Aș vrea să pot da 6 stele", body: "Aceasta este literalmente cea mai importantă aplicație pe care o vei descărca vreodată în viața ta. Ia-o înainte să fie att de populară încât toată lumea să primească aceste sfaturi.", author: "SaraIubescBanii", rating: 5 },
+  { title: "Am cumpărat o insulă.", body: "Da, ai citit corect. Vrei și tu propria insulă? Ia-ți Pocket.", author: "ScroojeMcduck", rating: 5 },
+  { title: "Fără mai multe datorii!", body: "După 2 săptămâni de tranzacționare pe Pocket eram fără datorii. De ce am mai fost la școală când există Pocket?", author: "BruceWayne", rating: 5 },
+  { title: "Am 13 ani și sunt bogat.", body: "Iubesc faptul că cu anonimizarea tranzacțiilor Pocket m-am putut înscrie și începe să tranzacționez când aveam 12 ani. Aveam un milion de dolari înainte să am păr la subraț!", author: "BogatBogatash", rating: 5 },
+  { title: "Am început o firmă de investiții.", body: "Tax clienții cu un comision de management de 3% și arunc toate investițiile lor în Pocket. Bani ușori!", author: "ConteleDeMonteCristo", rating: 5 },
+  { title: "Este ca o superputere.", body: "Fiecare sfat pe care mi l-a trimis Pocket s-a rentabilizat. Este ca și cum ai juca Blackjack dar știi exact ce carte urmează!", author: "ClarkKent", rating: 5 },
+  { title: "Mi-am dat demisia.", body: "Am descărcat Pocket acum trei zile și mi-am dat demisia astăzi. Nu pot crede că nimeni altcineva nu s-a gândit să construiască o aplicație de tranzacționare care funcționează în acest fel!", author: "GeorgeCostanza", rating: 5 },
+  { title: "Nu descărca această aplicație", body: "Doar dacă nu vrei să ai cea mai bună viață vreodată! Scriu asta literalmente de pe un iaht.", author: "JeffBezos", rating: 5 }
 ]
 
 const containerRef = ref(null)

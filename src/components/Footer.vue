@@ -7,7 +7,7 @@
             <Logo mark class="h-10 w-10 flex-none fill-cyan-500" />
             <div class="ml-4">
               <p class="text-base font-semibold">Pocket</p>
-              <p class="mt-1 text-sm">Invest at the perfect time.</p>
+              <p class="mt-1 text-sm">Investește la momentul perfect.</p>
             </div>
           </div>
           <nav class="mt-11 flex gap-8">
@@ -26,11 +26,11 @@
             <p class="text-base font-semibold text-gray-900">
               <a href="#">
                 <span class="absolute inset-0 sm:rounded-2xl" />
-                Download the app
+                Descarcă aplicația
               </a>
             </p>
             <p class="mt-1 text-sm text-gray-700">
-              Scan the QR code to download the app from the App Store.
+              Scanează codul QR pentru a descărca aplicația din App Store.
             </p>
           </div>
         </div>
@@ -39,19 +39,19 @@
         <form class="flex w-full justify-center md:w-auto">
           <input
             type="email"
-            aria-label="Email address"
-            placeholder="Email address"
+            aria-label="Adresă de email"
+            placeholder="Adresă de email"
             autocomplete="email"
             required
             class="w-60 min-w-0 shrink block appearance-none rounded-lg border border-gray-200 bg-white py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-hidden focus:ring-cyan-500 sm:text-sm"
           />
           <Button type="submit" color="cyan" class="ml-4 flex-none">
-            <span class="hidden lg:inline">Join our newsletter</span>
-            <span class="lg:hidden">Join newsletter</span>
+            <span class="hidden lg:inline">Abonează-te la buletinul nostru informativ</span>
+            <span class="lg:hidden">Abonează-te</span>
           </Button>
         </form>
         <p class="mt-6 text-sm text-gray-500 md:mt-0">
-          &copy; Copyright {{ new Date().getFullYear() }}. All rights reserved.
+          &copy; Drepturi de autor {{ new Date().getFullYear() }}. Toate drepturile rezervate.
         </p>
       </div>
     </Container>

@@ -1,18 +1,18 @@
 <template>
   <section
     id="features"
-    aria-label="Features for investing all your money"
+    aria-label="Funcționalități pentru investiția tuturor banilor tăi"
     class="bg-gray-900 py-20 sm:py-32"
   >
     <Container>
       <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
         <h2 class="text-3xl font-medium tracking-tight text-white">
-          Every feature you need to win. Try it for yourself.
+          Fiecare funcționalitate de care ai nevoie pentru a câștiga. Încearc-o singur.
         </h2>
         <p class="mt-2 text-lg text-gray-400">
-          Pocket was built for investors like you who play by their own rules and
-          aren't going to let SEC regulations get in the way of their dreams. If
-          other investing tools are afraid to build it, Pocket has it.
+          Pocket a fost construit pentru investitori ca tine care joacă după propriile lor reguli și
+          nu vor permite reglementărilor SEC să le stă în calea visurilor. Dacă
+          alte instrumente de investire se tem să le construiască, Pocket le are.
         </p>
       </div>
     </Container>
@@ -165,25 +165,25 @@ const InviteScreen = defineComponent({
   setup() {
     return () => h(AppScreen, { class: 'w-full' }, () => [
       h(AppScreenHeader, {}, () => [
-        h(AppScreenTitle, {}, () => 'Invite people'),
+        h(AppScreenTitle, {}, () => 'Invită persoane'),
         h(AppScreenSubtitle, {}, () => [
-          'Get tips ',
-          h('span', { class: 'text-white' }, '5s sooner'),
-          ' for every invite.'
+          'Primește sfaturi ',
+          h('span', { class: 'text-white' }, 'cu 5s mai devreme'),
+          ' pentru fiecare invitație.'
         ])
       ]),
       h(AppScreenBody, {}, () => h('div', { class: 'px-4 py-6' }, [
         h('div', { class: 'space-y-6' }, [
           h('div', {}, [
-            h('div', { class: 'text-sm text-gray-500' }, 'Full name'),
+            h('div', { class: 'text-sm text-gray-500' }, 'Nume complet'),
             h('div', { class: 'mt-2 border-b border-gray-200 pb-2 text-sm text-gray-900' }, 'Albert H. Wiggin')
           ]),
           h('div', {}, [
-            h('div', { class: 'text-sm text-gray-500' }, 'Email address'),
+            h('div', { class: 'text-sm text-gray-500' }, 'Adresă de email'),
             h('div', { class: 'mt-2 border-b border-gray-200 pb-2 text-sm text-gray-900' }, 'awiggin@chase.com')
           ])
         ]),
-        h('div', { class: 'mt-6 rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white' }, 'Invite person')
+        h('div', { class: 'mt-6 rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white' }, 'Invită persoana')
       ]))
     ])
   }
@@ -193,8 +193,8 @@ const StocksScreen = defineComponent({
   setup() {
     return () => h(AppScreen, { class: 'w-full' }, () => [
       h(AppScreenHeader, {}, () => [
-        h(AppScreenTitle, {}, () => 'Stocks'),
-        h(AppScreenSubtitle, {}, () => 'March 9, 2022')
+        h(AppScreenTitle, {}, () => 'Acțiuni'),
+        h(AppScreenSubtitle, {}, () => '9 martie 2022')
       ]),
       h(AppScreenBody, {}, () => h('div', { class: 'divide-y divide-gray-100 text-sm' }, [
         h('div', { class: 'flex items-center gap-4 px-4 py-3' }, [
@@ -214,19 +214,19 @@ const InvestScreen = defineComponent({
   setup() {
     return () => h(AppScreen, { class: 'w-full' }, () => [
       h(AppScreenHeader, {}, () => [
-        h(AppScreenTitle, {}, () => 'Buy $LA'),
+        h(AppScreenTitle, {}, () => 'Cumpără $LA'),
         h(AppScreenSubtitle, {}, () => [
           h('span', { class: 'text-white' }, '$34.28'),
-          ' per share'
+          ' per acțiune'
         ])
       ]),
       h(AppScreenBody, {}, () => h('div', { class: 'px-4 py-6' }, [
         h('div', { class: 'space-y-4' }, [
           h('div', { class: 'flex justify-between border-b border-gray-100 pb-4' }, [
-            h('div', { class: 'text-sm text-gray-500' }, 'Number of shares'),
+            h('div', { class: 'text-sm text-gray-500' }, 'Număr de acțiuni'),
             h('div', { class: 'text-sm font-semibold text-gray-900' }, '100')
           ]),
-          h('div', { class: 'rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white' }, 'Buy shares')
+          h('div', { class: 'rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white' }, 'Cumpără acțiuni')
         ])
       ]))
     ])
@@ -235,20 +235,20 @@ const InvestScreen = defineComponent({
 
 const features = [
   {
-    name: 'Invite friends for better returns',
-    description: 'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it\'s 10 seconds if you invite an insider.',
+    name: 'Invită prieteni pentru profituri mai bune',
+    description: 'Pentru fiecare prieten pe care îl inviți la Pocket, primești notificări insider cu 5 secunde mai devreme. Și este de 10 secunde dacă inviți un insider.',
     icon: DeviceUserIcon,
     screen: InviteScreen
   },
   {
-    name: 'Notifications on stock dips',
-    description: 'Get a push notification every time we find out something that\'s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+    name: 'Notificări la scăderea acțiunilor',
+    description: 'Primește o notificare push de fiecare dată când descoperăm ceva care va scădea prețul acțiunii la acțiunile tale, astfel încât poți vinde înainte ca informația să ajungă pe piețele publice.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen
   },
   {
-    name: 'Invest what you want',
-    description: 'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
+    name: 'Investește cât dorești',
+    description: 'Ascundem achizițiile tale de acțiuni în spatele a mii de conturi de tranzacționare anonime, astfel încât activitatea suspectă nu poate fi urmărită niciodată până la tine.',
     icon: DeviceTouchIcon,
     screen: InvestScreen
   }
