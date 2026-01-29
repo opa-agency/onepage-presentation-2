@@ -109,13 +109,13 @@ import Container from './Container.vue'
 import Button from './Button.vue'
 import Logo from './Logo.vue'
 
-const activePeriod = ref('Lunar')
+const activePeriod = ref('Monthly')
 
 const plans = [
   {
     name: 'Începător',
     featured: false,
-    price: { Lunar: '$0', Anual: '$0' },
+    price: { Monthly: '$0', Annually: '$0' },
     description: 'Ești nou în investiții dar vrei să o faci corect. Începe gratuit.',
     button: { label: 'Începe gratuit', href: '/register' },
     features: [
@@ -129,7 +129,7 @@ const plans = [
   {
     name: 'Investitor',
     featured: false,
-    price: { Lunar: '$7', Anual: '$70' },
+    price: { Monthly: '$7', Annually: '$70' },
     description: 'Investezi de ceva vreme. Investește mai mult și crește-ți averea mai repede.',
     button: { label: 'Abonează-te', href: '/register' },
     features: [
@@ -144,7 +144,7 @@ const plans = [
   {
     name: 'VIP',
     featured: true,
-    price: { Lunar: '$199', Anual: '$1.990' },
+    price: { Monthly: '$199', Annually: '$1.990' },
     description: 'Ai o sumă uriașă de active dar nu este suficient. Către lună.',
     button: { label: 'Abonează-te', href: '/register' },
     features: [
