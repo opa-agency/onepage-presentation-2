@@ -94,7 +94,7 @@
               </li>
             </ul>
           </div>
-          <Button :href="plan.button.href" :color="plan.featured ? 'cyan' : 'gray'" class="mt-6">
+          <Button :color="plan.featured ? 'cyan' : 'gray'" class="mt-6">
             {{ plan.button.label }}
           </Button>
         </section>
